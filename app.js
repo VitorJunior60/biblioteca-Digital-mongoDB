@@ -8,7 +8,7 @@ const client = new MongoClient(url);
 async function connectDB() {
     try {
         await client.connect();
-        console.log("Connected to MongoDB");
+        console.log("Você está conectado ao MongoDB");
 
         const db = client.db("Biblioteca");
         const collection = db.collection("Livros");
