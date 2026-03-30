@@ -19,8 +19,7 @@ async function connectDB() {
                 autor: "J.R.R. Tolkien",
                 ano: 1954,
                 capas: [
-                    "capaOSenhorDosAnéis1.jpg",
-                    "capaOSenhorDosAnéis2.jpg"
+                    "capaOSenhorDosAnéis.jpg",
                 ],
                 videos: [
                     {
@@ -38,8 +37,7 @@ async function connectDB() {
                 autor: "Nicholas Sparks",
                 ano: 2007,
                 capas: [
-                    "capaTheChoice1.jpg",
-                    "capaTheChoice2.jpg"
+                    "capaTheChoice.jpg",
                 ],
                 videos: [
                     {
@@ -57,8 +55,7 @@ async function connectDB() {
                 autor: "Colleen Hoover",
                 ano: 2018,
                 capas: [
-                    "capaÉAssimQueAcaba1.jpg",
-                    "capaÉAssimQueAcaba2.jpg"
+                    "capaÉAssimQueAcaba.jpg",
                 ],
                 videos: [
                     {
