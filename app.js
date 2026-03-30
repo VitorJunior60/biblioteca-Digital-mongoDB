@@ -1,6 +1,8 @@
+require('dotenv').config();
+
 const { MongoClient } = require('mongodb');
 
-const url = "mongodb+srv://vitor10junior60_db_user:Irineu10%40@bibliotecadigital.ye35moy.mongodb.net/biblioteca?retryWrites=true&w=majority&appName=BibliotecaDigital";
+const url = process.env.MONGO_URL;
 const client = new MongoClient(url);
 
 async function connectDB() {
